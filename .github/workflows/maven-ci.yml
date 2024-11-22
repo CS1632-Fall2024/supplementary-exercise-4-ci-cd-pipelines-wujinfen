@@ -74,7 +74,7 @@ jobs:
       uses: advanced-security/maven-dependency-submission-action@v3
 
   # SonarQube build stuff
-  build:
+  sonarqube_tests:
       needs: [maven_test]
       runs-on: ubuntu-latest
       
